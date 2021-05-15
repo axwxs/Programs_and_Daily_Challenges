@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void printBinary(int decimalNum);
@@ -7,15 +6,17 @@ void clearKeyboardBuffer(void);
 int main(int argc, char *argv[]) {
    
    int decimalNum;
-   printf("Enter an integer:\n");
+   printf("Enter an integer: ");
    scanf("%d", &decimalNum);
    clearKeyboardBuffer();
    
+   printf("\n");
    if (decimalNum == 0) {
       printf("%d", decimalNum);
    }
    
    else {
+      printf("%d In binary: ", decimalNum);
       printBinary(decimalNum);
    }
    printf("\n");
