@@ -1,3 +1,11 @@
+/*
+
+Takes an integer input and outputs the number in binary form.
+Only meant to convert positive integers.
+
+*/
+
+
 #include <stdio.h>
 
 void printBinary(int decimalNum);
