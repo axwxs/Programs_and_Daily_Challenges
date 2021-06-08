@@ -1,8 +1,12 @@
 /*
+A normal swap function using pointers and temporary variable but just with an added comparison to check if 
+num1 is smaller than num2 or not.
+
 This function should return nothing (i.e., void as the return type) to complete the program fragment provided
 below. After calling your function in the main function, variable num1 stores the larger value and
 variable num2 stores the smaller value. Using pass by pointer. Supposed to work for two different values.
-Not meant for the case that two integers are equal or invalid inputs, such as non-integer inputs, are entered. 
+Not meant for the case that two integers are equal or invalid inputs, such as non-integer inputs, are entered.
+Can't use any global variables.
 */
 
 #include <stdio.h>
