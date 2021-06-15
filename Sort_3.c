@@ -7,7 +7,7 @@ Should use pass by pointer (mimic pass by reference). So pointers as function
 formal parametes.
 
 For example:
-If the inputs are "23.555 12 -24.2" the output should look like "-24.20 12.00 23.55"
+If the inputs are "23.558 12 -24.2" the output should be "-24.20 12.00 23.55"
 
 Some constraints:
 In the main function you can only call the function you wrote. Nothing else should be
@@ -37,8 +37,9 @@ int main(int argc, char * argv[]) {
 
 
 /*
-Function definition. Uses pointers to change which variable stores which value. 
-Makes the them store them in ascending order.
+Uses pointers and temporary variables to change which variable 
+stores which value. Makes them store the values in ascending (increasing) order 
+appropriately.
 */
 void orderThree(double *a, double *b, double *c) {
 	double temp;
