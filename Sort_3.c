@@ -37,9 +37,8 @@ int main(int argc, char * argv[]) {
 
 
 /*
-Uses pointers and temporary variables to change which variable 
-stores which value. Makes them store the values in ascending (increasing) order 
-appropriately.
+Uses pointers and temporary variables to change which variable stores which value. 
+Results in them storing values in ascending (increasing) order appropriately.
 */
 void orderThree(double *a, double *b, double *c) {
 	double temp;
