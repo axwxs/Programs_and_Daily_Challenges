@@ -1,4 +1,5 @@
 /*
+
 Required to write a function, called orderThree which rearranges three numbers in 
 increasing order. The function should return nothing (void as the return type) and 
 take three parameters. After calling the function in the main function, the double 
@@ -12,6 +13,7 @@ If the inputs are "23.558 12 -24.2" the output should be "-24.20 12.00 23.55"
 Some constraints:
 In the main function you can only call the function you wrote. Nothing else should be
 added or altered. Can't use any global variables in the program.
+
 */
 
 #include <stdio.h>
@@ -25,7 +27,7 @@ int main(int argc, char * argv[]) {
 	printf("Enter three numbers separated by blanks:\n");
 	scanf("%lf%lf%lf", &num1, &num2, &num3);
     
-	// Function call to order the 3 numbers in increasing order
+    // Function call to order the 3 numbers in increasing order
 	orderThree(&num1, &num2, &num3);
     
     
