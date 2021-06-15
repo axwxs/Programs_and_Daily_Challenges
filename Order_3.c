@@ -7,7 +7,8 @@ Should use pass by pointer (mimic pass by reference). So pointers as function
 formal parametes.
 
 For example:
-If the inputs are "23.558 12 -24.2" the output should be "-24.20 12.00 23.55"
+If the inputs are "23.558 12 -24.2" the output should be "-24.20 12.00 23.56".
+If the inputs are "23.555 16 -24.256" the output should be "-24.26 16.00 23.55".
 
 Some constraints:
 In the main function you can only call the function you wrote. Nothing else should be
