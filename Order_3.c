@@ -27,7 +27,7 @@ int main(int argc, char * argv[]) {
 	printf("Enter three numbers separated by blanks:\n");
 	scanf("%lf%lf%lf", &num1, &num2, &num3);
     
-    // Function call to order the 3 numbers in increasing order
+	// Function call to order the 3 numbers in increasing order
 	orderThree(&num1, &num2, &num3);
     
     
