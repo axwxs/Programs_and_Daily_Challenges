@@ -1,4 +1,5 @@
 /*
+
 Required to write a function named orderThree which rearranges three numbers in 
 increasing order. The function should return nothing (void as the return type) and 
 take three parameters. After calling the function in the main function, the double 
@@ -7,12 +8,19 @@ Should use pass by pointer (mimic pass by reference). So pointers as function
 formal parametes.
 
 For example:
-If the inputs are "23.558 12 -24.2" the output should be "-24.20 12.00 23.56".
-If the inputs are "23.555 16 -24.256" the output should be "-24.26 16.00 23.55".
+If the inputs are "23.558 12 -24.2" 
+The output should be "The numbers in ascending order are: -24.20 12.00 23.56"
+
+If the inputs are "23.555 16.50 -24.256" 
+The output should be "The numbers in ascending order are: -24.26 16.50 23.55"
+
+If the inputs are "-78.546 77.52 44.254" 
+The output should be "The numbers in ascending order are: -78.55 44.25 77.52"
 
 Some constraints:
 In the main function you can only call the function you wrote. Nothing else should be
 added or altered. Can't use any global variables in the program.
+
 */
 
 #include <stdio.h>
