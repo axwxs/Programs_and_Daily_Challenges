@@ -60,11 +60,11 @@ int findIdenticalPair(double arr[], int a) {
     int indexValue;
    
     while (i < a) {
-      if (arr[i] == arr[i+1]) {
-         indexValue = i;
-         return indexValue;
-      }
-      i++;
+        if (arr[i] == arr[i+1]) {
+            indexValue = i;
+            return indexValue;
+        }
+        i++;
     }
     
     // if there's no other return value this is the default.
