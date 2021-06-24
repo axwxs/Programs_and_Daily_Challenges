@@ -43,7 +43,7 @@ while (2 > 1) {
         }
     }
   
-    printf("The final population would be %d pounds.\n", fib(initialCrud, inputNum));
+		printf("The final population would be %d pounds.\n", fib(initialCrud, inputNum));
   
 /* 
 This loop is simply used to check if the input is valid (either x or y).
