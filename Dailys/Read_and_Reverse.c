@@ -1,7 +1,7 @@
-/***********************************************
-Purpose: <Read and reverse string with character 
-limit and return for reversed string>
-***********************************************/
+/*
+Purpose: Read and reverse string with character 
+limit and return for reversed string
+*/
 
 #include <stdio.h>
 
