@@ -1,9 +1,5 @@
 /*
-
-Author: <Ali Rashid>
-Date: <02/16/2021>
 Purpose: <Output negative number from input>
-
 */
 
 #include <stdio.h>
