@@ -1,14 +1,10 @@
 /*
-
-Author: <Ali Rashid>
-Date: <04/14/21>
 Purpose: <Find identical pair>
 
 Find the first identical pair in an array (if there is one) and output the 
 index where it was found. Only finds the first identical pair after which 
 the program stops running. Make sure it avoids illegal out of bounds
 accessing.
-
 */
 
 #include <stdio.h>
