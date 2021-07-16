@@ -6,6 +6,9 @@ pass some automated test checks.
 
 */
 
+
+
+// Need to import <ctype.h> library in addition to the usual <stdio.h>
 #include <stdio.h>
 #include <ctype.h>
 
@@ -13,8 +16,6 @@ pass some automated test checks.
 void copyName(FILE *fp, FILE *fp2);
 void copyScores(FILE *fp, FILE *fp2);
 void appendString(char str1[], char str2[], char str3[], int size3);
-
-
 
 
 
@@ -29,11 +30,13 @@ int main(int argc, char *argv[1]){ // For gradebook test formatting
     int readChar;
 
     // fp = fopen(argv[1], "r"); // For gradebook test formatting
-    // fp = fopen("quiz_test.txt", "r"); // For practice/debugging/general
+    
 	
 	char quizFilePath[50] = /* WRITE PATH HERE */;
     fp = fopen(quizFilePath, "r"); // For practice/debugging/general
-
+	
+	// Or just use the line below and comment out the two above
+	// fp = fopen("quiz_test.txt", "r"); // For practice/debugging/general
 
     // Checks if file opened successfully
     if(NULL == fp){
@@ -65,6 +68,7 @@ int main(int argc, char *argv[1]){ // For gradebook test formatting
     fclose(fp2);
     return 0;
 }
+
 
 
 /*
@@ -120,6 +124,7 @@ void copyName(FILE *fp, FILE *fp2){
 }
 
 
+
 /*
 Takes in two file pointers. Reads the rest of the data, the numbers for quiz scores
 in the first file being opened, and outputs it with the specified formatting to the
@@ -152,7 +157,7 @@ void copyScores(FILE *fp, FILE *fp2){
 
     if(numScores < 10){
     	for(i = 0; i < (10 - numScores); ++i){
-            printf("%4d", nullScore);
+         	printf("%4d", nullScore);
             fprintf(fp2, "%4d", nullScore);
         }
     }
@@ -163,6 +168,7 @@ void copyScores(FILE *fp, FILE *fp2){
 
     return;
 }
+
 
 
 /*
