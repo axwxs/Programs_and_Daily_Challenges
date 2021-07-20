@@ -1,7 +1,7 @@
 /*
 
-Purpose: Using input ".txt" files to read and parse for relevant data which will be output to 
-a file with the relevant names, quiz scores, and averages in specific formatting that had to 
+Purpose: Using input ".txt" files to read and then parse for relevant data which will be output to 
+a new ".txt" file with the relevant names, quiz scores, and averages in specific formatting that had to 
 pass some automated test checks.
 
 */
